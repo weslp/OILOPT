@@ -15,7 +15,7 @@ app.use(express.json());
 
 // Настройка БД
 let mongoose = require('mongoose');
-mongoose.connect('mongodb://127.0.0.1:27017/project-base-for-order#183');
+mongoose.connect('mongodb://127.0.0.1:27017/project-base-for-order');
 
 let ProductSchema = new mongoose.Schema({
     title: String,
